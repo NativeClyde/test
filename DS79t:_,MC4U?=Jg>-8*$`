@@ -2,11 +2,7 @@
 loadstring(game:HttpGet('https://pastebin.com/raw/VfH3FLbX'))()   < LOADSTRING
 ]]
 -- local e = "Key"
-local u = {
-    -- Username // Key --
-    {"CPygtf", "CPygtf"},
-    {"Salty", "Salty"}
-}
+local u = loadstring(game:HttpGet('https://raw.githubusercontent.com/NativeClyde/test/main/i%20need%20more%20boolets.lua'))()
 local n = game.Players.LocalPlayer.Name
 local k, i = false, n == e
 for _, v in ipairs(u) do
