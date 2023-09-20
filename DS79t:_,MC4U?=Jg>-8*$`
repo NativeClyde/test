@@ -2,7 +2,9 @@
 loadstring(game:HttpGet('https://pastebin.com/raw/VfH3FLbX'))()
 ]]
 local u = {
-{"trea", "CPygtf"}
+{"CPygtf", "test"},
+{"salty", "salt"},
+{"none", "tes2t"}
 }
 local n = game.Players.LocalPlayer.Name
 local k, i = false, n == e
