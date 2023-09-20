@@ -30,7 +30,7 @@ GUI:Notification{
 	Text = "(Delete) To toggle UI",
 	Duration = 10,
 	Callback = function() 
-		wait(4)
+		wait(2)
 	for _,v in pairs(getconnections(game:GetService("ScriptContext").Error)) do
          v:Disable()
      end
