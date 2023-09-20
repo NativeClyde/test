@@ -3,7 +3,18 @@ loadstring(game:HttpGet('https://pastebin.com/raw/VfH3FLbX'))()   < LOADSTRING
 ]]
 -- local e = "Key"
 local u = 
-
+{
+{"CPygtf", ""}, -- User // Key --
+{"Zexiorus", ""},
+{"Nectextop", "DinoHasSexWithMinors"},
+{"", ""},
+{"", ""},
+{"", ""},
+{"", ""},
+{"", ""},
+{"", ""},
+{"", ""}
+}
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NativeClyde/test/main/i%20need%20more%20boolets.lua'))()
 
 local n = game.Players.LocalPlayer.Name
