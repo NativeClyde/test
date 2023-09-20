@@ -1,4 +1,21 @@
+
+validkeys = 
+{
+    "Y\"M[6]j*=bRsVn_(%Ay.{d",
+    "E:(BXrws76ac&;g\"/W>qLD",
+    "m%>79'2Pk3D=jQ4@Rh+L)t",
+    "jwFhdaZ5vn]CTp3uJ8`c_r",
+    "j$9G7`>F{)%m:pB~qNV?XW",
+    "ahq49XKmb-U6EPe&3$tg%Y",
+    "eBa;CyQX^w+L[~RqE/=93?",
+    "V=f<PT}^nUqAwg@RtX9Y>a",
+    "YL]t.B+h;T6N}q*:C/~H#Q",
+    "zndL=R2JXWH[a_Ze8Y%?(U"
+}
+for _, v in ipairs(validkeys) do
+    if v == KEY then
 wait(2)
+
 local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
 local GUI = Mercury:Create{
@@ -13,7 +30,7 @@ GUI:Notification{
 	Text = "(Delete) To toggle UI",
 	Duration = 10,
 	Callback = function() 
-		wait(2.5)
+		wait(4)
 	for _,v in pairs(getconnections(game:GetService("ScriptContext").Error)) do
          v:Disable()
      end
@@ -208,3 +225,8 @@ Tab:Button{
         end    
     end
 }
+
+return
+end
+end
+game.Players.LocalPlayer:Kick("Invalid Key")
