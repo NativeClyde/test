@@ -229,4 +229,5 @@ Tab:Button{
 return
 end
 end
+wait(1)
 game.Players.LocalPlayer:Kick("Invalid Key")
