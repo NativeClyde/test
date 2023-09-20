@@ -6,14 +6,7 @@ local u =
 {
 {"CPygtf", C"}, -- User // Key --
 {"Zexiorus", ""},
-{"Nectextop", "DinoHasSexWithMinors"},
-{"", ""},
-{"", ""},
-{"", ""},
-{"", ""},
-{"", ""},
-{"", ""},
-{"", ""}
+{"Nectextop", "DinoHasSexWithMinors"}
 }
 loadstring(game:HttpGet('https://raw.githubusercontent.com/NativeClyde/test/main/i%20need%20more%20boolets.lua'))()
 
