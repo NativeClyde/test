@@ -1,7 +1,6 @@
 --[[ e = ("CPygtf") -- Key
-loadstring(game:HttpGet('https://pastebin.com/raw/VfH3FLbX'))()   < LOADSTRING
+loadstring(game:HttpGet('https://pastebin.com/raw/VfH3FLbX'))()
 ]]
--- local e = "Key"
 local u = {
 {"CPygtf", "test"}
 }
