@@ -1,9 +1,11 @@
+-- local e = "Key"
 local u = {
-    -- Username \\ Key -- 
+    -- Username // Key --
     {"CPygtf", "CPygtf"},
-    {"Test", "Salty"}
-    
-    }
+    {"Salty", "Salty"}
+
+
+}
 local n = game.Players.LocalPlayer.Name
 local k, i = false, n == e
 for _, v in ipairs(u) do
@@ -12,10 +14,10 @@ for _, v in ipairs(u) do
         break
     end
 end
-local m = (not k and "Invalid Key" or "") .. (not i and "Invalid User" or "")
+local m = (not k or not i) and "Invalid" or ""
 if k and i then
     wait(2)
-        local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
 
 local GUI = Mercury:Create{
     Name = "Mercury",
@@ -225,5 +227,5 @@ Tab:Button{
     end
 }
 else
-game.Players.LocalPlayer:Kick(m == "" and "Invalid Key and Invalid User" or m)
+game.Players.LocalPlayer:Kick(m)
 end
